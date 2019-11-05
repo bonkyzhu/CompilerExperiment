@@ -1,0 +1,94 @@
+保留字  var varsym
+error in line 1
+comma ,
+标识符 n 
+comma ,
+标识符 r 
+comma ,
+标识符 p 
+semicolon ;
+保留字  procedure proceduresym
+标识符 gcd 
+semicolon ;
+保留字  begin beginsym
+保留字  while whilesym
+标识符 r 
+neq #
+数字 0
+保留字  do dosym
+保留字  begin beginsym
+标识符 q 
+赋值符号 :=
+标识符 m 
+slash /
+标识符 n 
+semicolon ;
+标识符 r 
+赋值符号 :=
+标识符 m 
+minus -
+标识符 q 
+times *
+标识符 n 
+semicolon ;
+标识符 m 
+赋值符号 :=
+标识符 n 
+semicolon ;
+标识符 n 
+赋值符号 :=
+标识符 r 
+semicolon ;
+保留字  end endsym
+semicolon ;
+保留字  end endsym
+semicolon ;
+保留字  begin beginsym
+保留字  read readsym
+lparen (
+标识符 m 
+rparen )
+semicolon ;
+保留字  read readsym
+lparen (
+标识符 n 
+rparen )
+semicolon ;
+保留字  if ifsym
+标识符 m 
+小于号 <
+标识符 n 
+保留字  then thensym
+保留字  begin beginsym
+标识符 r 
+赋值符号 :=
+标识符 m 
+semicolon ;
+标识符 m 
+赋值符号 :=
+标识符 n 
+semicolon ;
+标识符 n 
+赋值符号 :=
+标识符 r 
+semicolon ;
+保留字  end endsym
+semicolon ;
+保留字  begin beginsym
+标识符 r 
+赋值符号 :=
+数字 1
+semicolon ;
+保留字  call callsym
+标识符 gcd 
+semicolon ;
+保留字  write writesym
+lparen (
+标识符 m 
+rparen )
+semicolon ;
+保留字  end endsym
+semicolon ;
+保留字  end endsym
+semicolon ;
+complete
