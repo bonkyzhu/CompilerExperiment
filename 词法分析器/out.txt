@@ -1,94 +1,94 @@
-±£Áô×Ö  var varsym
+ä¿ç•™å­—  var varsym
 error in line 1
 comma ,
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ n 
 comma ,
-±êÊ¶·û r 
+æ ‡è¯†ç¬¦ r 
 comma ,
-±êÊ¶·û p 
+æ ‡è¯†ç¬¦ p 
 semicolon ;
-±£Áô×Ö  procedure proceduresym
-±êÊ¶·û gcd 
+ä¿ç•™å­—  procedure proceduresym
+æ ‡è¯†ç¬¦ gcd 
 semicolon ;
-±£Áô×Ö  begin beginsym
-±£Áô×Ö  while whilesym
-±êÊ¶·û r 
+ä¿ç•™å­—  begin beginsym
+ä¿ç•™å­—  while whilesym
+æ ‡è¯†ç¬¦ r 
 neq #
-Êý×Ö 0
-±£Áô×Ö  do dosym
-±£Áô×Ö  begin beginsym
-±êÊ¶·û q 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û m 
+æ•°å­— 0
+ä¿ç•™å­—  do dosym
+ä¿ç•™å­—  begin beginsym
+æ ‡è¯†ç¬¦ q 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ m 
 slash /
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ n 
 semicolon ;
-±êÊ¶·û r 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û m 
+æ ‡è¯†ç¬¦ r 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ m 
 minus -
-±êÊ¶·û q 
+æ ‡è¯†ç¬¦ q 
 times *
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ n 
 semicolon ;
-±êÊ¶·û m 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ m 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ n 
 semicolon ;
-±êÊ¶·û n 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û r 
+æ ‡è¯†ç¬¦ n 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ r 
 semicolon ;
-±£Áô×Ö  end endsym
+ä¿ç•™å­—  end endsym
 semicolon ;
-±£Áô×Ö  end endsym
+ä¿ç•™å­—  end endsym
 semicolon ;
-±£Áô×Ö  begin beginsym
-±£Áô×Ö  read readsym
+ä¿ç•™å­—  begin beginsym
+ä¿ç•™å­—  read readsym
 lparen (
-±êÊ¶·û m 
+æ ‡è¯†ç¬¦ m 
 rparen )
 semicolon ;
-±£Áô×Ö  read readsym
+ä¿ç•™å­—  read readsym
 lparen (
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ n 
 rparen )
 semicolon ;
-±£Áô×Ö  if ifsym
-±êÊ¶·û m 
-Ð¡ÓÚºÅ <
-±êÊ¶·û n 
-±£Áô×Ö  then thensym
-±£Áô×Ö  begin beginsym
-±êÊ¶·û r 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û m 
+ä¿ç•™å­—  if ifsym
+æ ‡è¯†ç¬¦ m 
+å°äºŽå· <
+æ ‡è¯†ç¬¦ n 
+ä¿ç•™å­—  then thensym
+ä¿ç•™å­—  begin beginsym
+æ ‡è¯†ç¬¦ r 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ m 
 semicolon ;
-±êÊ¶·û m 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û n 
+æ ‡è¯†ç¬¦ m 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ n 
 semicolon ;
-±êÊ¶·û n 
-¸³Öµ·ûºÅ :=
-±êÊ¶·û r 
+æ ‡è¯†ç¬¦ n 
+èµ‹å€¼ç¬¦å· :=
+æ ‡è¯†ç¬¦ r 
 semicolon ;
-±£Áô×Ö  end endsym
+ä¿ç•™å­—  end endsym
 semicolon ;
-±£Áô×Ö  begin beginsym
-±êÊ¶·û r 
-¸³Öµ·ûºÅ :=
-Êý×Ö 1
+ä¿ç•™å­—  begin beginsym
+æ ‡è¯†ç¬¦ r 
+èµ‹å€¼ç¬¦å· :=
+æ•°å­— 1
 semicolon ;
-±£Áô×Ö  call callsym
-±êÊ¶·û gcd 
+ä¿ç•™å­—  call callsym
+æ ‡è¯†ç¬¦ gcd 
 semicolon ;
-±£Áô×Ö  write writesym
+ä¿ç•™å­—  write writesym
 lparen (
-±êÊ¶·û m 
+æ ‡è¯†ç¬¦ m 
 rparen )
 semicolon ;
-±£Áô×Ö  end endsym
+ä¿ç•™å­—  end endsym
 semicolon ;
-±£Áô×Ö  end endsym
+ä¿ç•™å­—  end endsym
 semicolon ;
 complete

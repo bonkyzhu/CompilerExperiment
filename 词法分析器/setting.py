@@ -1,12 +1,4 @@
-nmax = 14
-norw = 13       
-txmax = 100     
-al = 10         
-maxerr = 30     
-amax = 2048     
-levmax = 3      
-cxmax = 200     
-stacksize = 500 
+import string 
 
 word = [
 	"begin", "call", "const", "do",
@@ -27,3 +19,5 @@ i = 0
 line = 1
 index = 0
 length = len(code)
+ascii_letters, digits = list(string.ascii_letters), list(string.digits)
+save = ''

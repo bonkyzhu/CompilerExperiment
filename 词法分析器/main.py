@@ -1,9 +1,6 @@
-import string 
 import sys
 from setting import *
 
-save = ''
-ascii_letters, digits = list(string.ascii_letters), list(string.digits)
 def savestr(sentence):
     global save
     save += sentence
@@ -15,12 +12,12 @@ def getch():
         savestr("complete")
         with open('out.txt', 'w') as f:
             f.write(save)
+        print("词法分析完成")
         sys.exit()
     if ch == '\n':
         line += 1
     ch = code[i]
     i += 1
-
 
 def getsym():
     while ch == ' ' or ch == '\n' or ch == '\t':
@@ -53,8 +50,6 @@ def getsym():
             else:
                 sym ='number'
                 savestr(f"数字 {int(a)}")
-            if len(a) > nmax:
-                error()
         else:
             if ch == ':':
                 getch() 
@@ -93,9 +88,11 @@ def getsym():
                             getch()
 
 def error():
+    print(f"error in line {line}")
     savestr(f"error in line {line}")
     # sys.exit()
 
 if __name__ == "__main__":
     while True:
         getsym()
+    print()
